@@ -1,36 +1,27 @@
-<monitors version="1">
+<monitors version="2">
   <configuration>
-      <clone>no</clone>
-      <output name="DSI-1">
-          <vendor>???</vendor>
-          <product>0x0000</product>
-          <serial>0x00000000</serial>
+    <logicalmonitor>
+      <x>0</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <transform>
+        <rotation>right</rotation>
+        <flipped>no</flipped>
+      </transform>
+      <monitor>
+        <monitorspec>
+          <connector>DSI-1</connector>
+          <vendor>unknown</vendor>
+          <product>unknown</product>
+          <serial>unknown</serial>
+        </monitorspec>
+        <mode>
           <width>1200</width>
           <height>1920</height>
-          <rate>60</rate>
-          <x>0</x>
-          <y>0</y>
-          <rotation>right</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
-  </configuration>
-  <configuration>
-      <clone>no</clone>
-      <output name="DSI1">
-          <vendor>???</vendor>
-          <product>0x0000</product>
-          <serial>0x00000000</serial>
-          <width>1200</width>
-          <height>1920</height>
-          <rate>60</rate>
-          <x>0</x>
-          <y>0</y>
-          <rotation>right</rotation>
-          <reflect_x>no</reflect_x>
-          <reflect_y>no</reflect_y>
-          <primary>yes</primary>
-      </output>
+          <rate>60.384120941162109</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
   </configuration>
 </monitors>
