@@ -1,5 +1,5 @@
 [Desktop Entry]
-Exec=/usr/bin/xrandr --output DSI-1 --scale 0.65x0.65
+Exec=/usr/bin/xrandr --output DSI-1 --scale 0.60x0.60
 Icon=system-run
 Path=
 Name=xrandr
