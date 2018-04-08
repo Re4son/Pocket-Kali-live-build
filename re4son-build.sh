@@ -170,7 +170,7 @@ for KALI_ARCH in $KALI_ARCHES; do
 	IMAGE_NAME="$(image_name $KALI_ARCH)"
 	set +e
 	: > build.log
-##	run_and_log $SUDO lb clean --purge
+	run_and_log $SUDO lb clean --purge
 	run_and_log $SUDO lb clean
 	[ $? -eq 0 ] || failure
 	run_and_log lb config -a $KALI_ARCH $KALI_CONFIG_OPTS "$@"
