@@ -1,0 +1,9 @@
+#!/bin/sh
+update-initramfs -c -k 4.16.0-re4son+
+
+if [ -x "$(which grub-mkconfig 2>/dev/null)" ]; then
+    grub-mkconfig -o /boot/grub/grub.cfg
+fi
+## Kernel >4.16.4 patches drivers/char/random.c which causes significant boot delays
+## caused by lack of entropy, we install haveged and enable its service to fix that
+systemctl enable haveged && systemctl start haveged
