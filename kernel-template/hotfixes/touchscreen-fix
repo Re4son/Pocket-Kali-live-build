@@ -1,0 +1,21 @@
+#!/bin/bash
+##
+## The designware i2c driver is buggy in kernel <=4.15rc5
+## and causes the goodix touchscreen driver to be unable to
+## communicate after resume (I2C communication failure: -110)
+## We'll unload the goodix driver during suspend as a workaround
+##
+## 31/12/2017 re4son@whitedome.com.au
+
+case "$1" in
+    pre)
+        # executed on suspend
+        rmmod goodix
+        ;;
+    post)
+        # execute on resume
+        modprobe goodix
+        ;;
+    *)
+        ;;
+esac

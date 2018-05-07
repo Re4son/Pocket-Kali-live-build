@@ -1,0 +1,129 @@
+Package History:
+
+4.17-rc3-re4son+_1 - 05-May-2018:
+-----------------------------------
+- Based on 4.17-rc2-re4son+_1
+- Bump to 4.17-rc2
+ 
+4.16.7-re4son+_2 - 07-May-2018:
+-----------------------------------
+- Based on 4.16.5-re4son+_1
+- Bump to 4.16.7
+- Install haveged to add entropy
+ 
+4.16.0-re4son+_2 - 29-Apr-2018:
+-----------------------------------
+- Based on 4.16.0-rc6-re4son+_1
+- Add udev rule to fix 
+  90degree touch rotation after gnome-shell upgrade
+
+4.17-rc2-re4son+_1 - 28-Apr-2018:
+-----------------------------------
+- Based on 4.16.5-re4son+_1
+- Bump to 4.17-rc2
+- vanilla linux source without additional patches
+ 
+4.16.5-re4son+_1 - 27-Apr-2018:
+-----------------------------------
+- Based on 4.16.0-re4son+_1
+- Bump to 4.16.5
+ 
+4.15.18-re4son+_1 - 27-Apr-2018:
+-----------------------------------
+- Based on 4.15.12-re4son+_1
+- Bump to 4.15.18 
+
+4.16.0-re4son+_1 - 7-Apr-2018:
+-----------------------------------
+- Based on 4.16.0-rc6-re4son+_1
+- Bump to 4.16.0
+ 
+4.16.0-rc6-re4son+_1 - 25-Mar-2018:
+-----------------------------------
+- Based on 4.16.0-rc3-re4son+_1
+- Bump to 4.16.0-rc6
+ 
+4.15.12-re4son+_1 - 25-Mar-2018:
+-----------------------------------
+- Based on 4.15.7-re4son+_1
+- Bump to 4.15.12 
+
+4.16.0-rc3-re4son+_1 - 3-Mar-2018:
+-----------------------------------
+- Based on 4.16.0-rc2-re4son+_1
+- Bump to 4.16.0-rc3
+ 
+4.15.7-re4son+_1 - 3-Mar-2018:
+-----------------------------------
+- Based on 4.15.4-re4son+_1
+- Bump to 4.15.7 
+
+4.16.0-rc2-re4son+_1 - 20-Feb-2018:
+-----------------------------------
+- Based on 4.16.0-rc1-re4son+_1
+- Bump to 4.16.0-rc2
+ 
+4.15.4-re4son+_1 - 19-Feb-2018:
+-----------------------------------
+- Based on 4.15.0-re4son+_1
+- Bump to 4.15.4 
+
+4.16.0-rc1-re4son+_1 - 13-Feb-2018:
+-----------------------------------
+- Bump to 4.16-rc1 
+
+4.15.0-re4son+_1 - 02-Feb-2018:
+-----------------------------------
+- Final Release
+- Include RTL8812AU and RTL8814AU with
+  monitor and injection support
+
+4.15.0-rc9-re4son+_1 - 23-Jan-2018:
+-----------------------------------
+- Bump to RC9
+
+4.15.0-rc7-re4son+_2 - 12-Jan-2018:
+-----------------------------------
+- Add workaround for debian bug #862175
+
+4.15.0-rc7-re4son+_1 - 10-Jan-2018:
+-----------------------------------
+- Bump to rc7
+- Config:
+  CONFIG_TYPEC_MUX=m
+  CONFIG_TYPEC_MUX_PI3USB302=m
+  CONFIG_TYPEC_MUX_PI3USB30532=m
+  CONFIG_USB_ROLES_INTEL_CHT=m
+  CONFIG_USB_ROLE_SWITCH=m
+- Remove goodix-fix - been replaced by kernel commit
+  06ea1b86587ddd27330064d0cbb8f22a2a8977d3
+
+4.15.0-rc6-re4son+_1 - 07-Jan-2018:
+-----------------------------------
+- Bump to rc6
+- Enable CONFIG_CPU_ISOLATION &
+         CONFIG_PAGE_TABLE_ISOLATION
+
+4.15.0-rc5-re4son+_8 - 04-Jan-2018:
+-----------------------------------
+- Disable CONFIG_STACK_VALIDATION, and
+- Switch from CONFIG_UNWINDER_ORC to 
+  CONFIG_UNWINDER_FRAME_POINTER
+  because of runtime compilation errors
+  caused by missing objtools
+
+4.15.0-rc5-re4son+_7 - 01-Jan-2018:
+-----------------------------------
+- Upstream patches
+- Kalification of config
+- Includes touchscreen-suspend-fix
+- Includes pcspkr fix
+- Includes installer 4.15-1.0
+
+4.15.0-rc4-re4son+_3 - 29-Dec-2017:
+-----------------------------------
+- Upstream patches
+
+4.15.0-rc4-re4son+_2 - 24-Dec-2017:
+-----------------------------------
+- Initial release based on Hans kernel
