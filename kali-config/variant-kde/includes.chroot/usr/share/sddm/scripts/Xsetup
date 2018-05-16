@@ -1,0 +1,3 @@
+#!/bin/sh
+# Xsetup - run as root before the login dialog appears
+xrandr --output DSI-1 --rotate right

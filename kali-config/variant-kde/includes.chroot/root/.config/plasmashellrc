@@ -1,0 +1,12 @@
+[PlasmaRunnerManager]
+LaunchCounts=1 services_org.kde.konsole.desktop
+pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=68
+
+[ScreenConnectors]
+0=DSI-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js
